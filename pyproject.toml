@@ -1,0 +1,23 @@
+[project]
+name = "churn-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.2",
+    "mlflow>=3.10.1",
+    "numpy>=2.4.3",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.5",
+    "scikit-learn>=1.8.0",
+    "uvicorn>=0.42.0",
+    "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+]
