@@ -65,7 +65,7 @@ def train_final_xgboost(X_Train, Y_Train):
 
         #save model
         os.makedirs("models",exist_ok=True)
-        model_path="models/XGboost_model.pkl"
+        model_path="models/XGBoost_model.pkl"
         with open(model_path,'wb') as f:
             pickle.dump(model,f)
 
