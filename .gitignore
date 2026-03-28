@@ -12,5 +12,5 @@ wheels/
 
 .DS_Store
 data/
-models/*.pkl
+
 
